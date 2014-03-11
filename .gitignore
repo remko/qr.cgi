@@ -1,0 +1,8 @@
+.scon*
+*.cgi
+*.o
+*.a
+config.py
+favicon.ico
+favicon.c
+unittests
