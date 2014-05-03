@@ -8,6 +8,12 @@ vars.Add(BoolVariable("check", "Run unit tests", "no"))
 env = Environment(ENV = {'PATH': os.environ['PATH']}, variables = vars)
 Help(vars.GenerateHelpText(env))
 
+# Compiler
+if os.environ.get("CC", False) :
+	env["CC"] = os.environ["CC"]
+if os.environ.get("CXX", False) :
+	env["CXX"] = os.environ["CXX"]
+
 # Flags
 if env["PLATFORM"] == "win32" :
 	env.Append(LINKFLAGS = ["/INCREMENTAL:no"])
