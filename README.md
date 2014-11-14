@@ -1,4 +1,4 @@
-# [qr.cgi: A CGI QR Code Generator](http://el-tramo.be/qr.cgi)
+# [qr.cgi: A CGI QR Code Generator](https://el-tramo.be/qr.cgi)
 
 ## About
 
